@@ -41,8 +41,7 @@ augroup END
 The first mapping will send the current paragraph to psql. The second
 will send the visual selection to psql.
 
-To start `pisk`, use the Vim command `:term pisk`. This will display
-psql's output and if you squint, it almost feels like a REPL.
+To start `pisk`, use the Vim command `:term pisk`.
 
 ## Why
 
