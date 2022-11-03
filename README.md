@@ -31,10 +31,10 @@ macOS):
 
 ```viml
 augroup mine
-  autocmd FileType sql nn <D-Enter>
-    \ vap:term ++close ++hidden nc localhost 3000<CR>
-  autocmd FileType sql vn <D-Enter>
-    \ :term ++close ++hidden nc localhost 3000<CR>
+  autocmd FileType sql nn <leader><Enter>
+        \ vap:term ++close ++hidden nc localhost 3000<CR>
+  autocmd FileType sql vn <leader><Enter>
+        \ :term ++close ++hidden nc localhost 3000<CR>
 augroup END
 ```
 
