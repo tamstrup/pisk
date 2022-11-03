@@ -1,0 +1,12 @@
+#!/bin/bash
+
+if [ -z "$PORT" ]
+then
+	PORT=3000
+	echo "running pisk on port $PORT"
+fi
+
+# Create a server that pipes its input (from client) to stdin of psql. Use
+# standard psql environment variables to configure database connection.
+nc -kl localhost "$PORT" | psql
+
