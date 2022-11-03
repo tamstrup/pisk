@@ -2,7 +2,10 @@
 
 The simplest way imaginable for talking to a Postgres session from Vim.
 
-[![asciicast](https://asciinema.org/a/534589.svg)](https://asciinema.org/a/534589)
+<a href="https://asciinema.org/a/534589" target="_blank"
+style="text-decoration: none">
+<img src="https://github.com/patrkris/pisk/blob/master/demo.gif">
+</a>
 
 ## Requirements
 
