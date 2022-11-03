@@ -2,7 +2,7 @@
 
 The simplest way imaginable for talking to a Postgres session from Vim.
 
-<script id="asciicast-534589" src="https://asciinema.org/a/534589.js" async></script>
+[![asciicast](https://asciinema.org/a/534589.svg)](https://asciinema.org/a/534589)
 
 ## Requirements
 
